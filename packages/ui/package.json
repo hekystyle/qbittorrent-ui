@@ -9,5 +9,10 @@
       "import": "./index.mjs",
       "require": "./index.js"
     }
+  },
+  "dependencies": {
+    "antd": "5.21.6",
+    "rambda": "9.3.0",
+    "react-intl": "6.8.4"
   }
 }
