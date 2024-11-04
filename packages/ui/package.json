@@ -9,5 +9,8 @@
       "import": "./index.mjs",
       "require": "./index.js"
     }
+  },
+  "dependencies": {
+    "react-intl": "6.8.6"
   }
 }
