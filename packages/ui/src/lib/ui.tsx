@@ -1,5 +1,5 @@
 import { FormattedMessage } from 'react-intl';
-import styled from 'styled-components';
+import { styled } from 'styled-components';
 
 const StyledUi = styled.div`
   color: pink;
