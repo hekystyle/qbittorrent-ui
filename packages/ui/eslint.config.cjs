@@ -9,4 +9,7 @@ module.exports = [
     // Override or add rules here
     rules: {},
   },
+  {
+    ignores: ['vite.config.ts.timestamp-*'],
+  },
 ];
