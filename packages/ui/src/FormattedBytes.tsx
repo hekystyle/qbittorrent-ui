@@ -7,7 +7,7 @@ export interface FormattedBytesProps {
 }
 
 export function FormattedBytes({ value, per }: FormattedBytesProps) {
-  if (typeof value === "undefined") return <>-</>;
+  if (typeof value === 'undefined') return <>-</>;
 
   const [formattedValue, unit] = formatBytes(value);
 

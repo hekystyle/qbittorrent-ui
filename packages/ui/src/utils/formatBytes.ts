@@ -1,4 +1,3 @@
-
 export function formatBytes(bytes: number): [number, string] {
   const k = 1000;
   const units = ['b', 'kb', 'Mb', 'Gb', 'Tb'] as const;
